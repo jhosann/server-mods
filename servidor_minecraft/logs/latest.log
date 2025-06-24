@@ -1,0 +1,1146 @@
+[24Jun2025 00:45:46.507] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[24Jun2025 00:45:46.512] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[24Jun2025 00:45:49.209] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[24Jun2025 00:45:49.303] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-mods/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[24Jun2025 00:45:50.012] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-mods/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[24Jun2025 00:45:50.015] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-mods/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Jun2025 00:45:50.017] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-mods/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Jun2025 00:45:50.017] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-mods/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[24Jun2025 00:45:50.547] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[24Jun2025 00:45:50.550] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[24Jun2025 00:45:55.435] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Jun2025 00:45:55.450] [main/ERROR] [mixin/]: Mixin config hamsters.mixins.json does not specify "minVersion" property
+[24Jun2025 00:45:55.830] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[24Jun2025 00:45:55.836] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[24Jun2025 00:45:55.850] [main/WARN] [mixin/]: Reference map 'hamsters.refmap.json' for hamsters.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jun2025 00:45:56.035] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.1+mc1.20.1: 95 options available, 0 override(s) found
+[24Jun2025 00:45:56.037] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[24Jun2025 00:45:56.062] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[24Jun2025 00:45:56.093] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for mixins.untamedwilds.json could not be read. If this is a development environment you can ignore this message
+[24Jun2025 00:45:56.242] [main/WARN] [mixin/]: Reference map 'mixins.sons_of_sins.refmap.json' for mixins.sons_of_sins.json could not be read. If this is a development environment you can ignore this message
+[24Jun2025 00:45:56.695] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jun2025 00:46:00.482] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[24Jun2025 00:46:01.657] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.88 s after launch)
+[24Jun2025 00:46:01.887] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[24Jun2025 00:46:01.888] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[24Jun2025 00:46:05.517] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3851 milliseconds
+[24Jun2025 00:46:09.234] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$bda000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[24Jun2025 00:46:11.698] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@6397248c on thread Thread[modloading-worker-0,5,main]
+[24Jun2025 00:46:11.701] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15%20(1).jar%23219!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15%20(1).jar%23219!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15%20(1).jar%23219!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15%20(1).jar%23219!/:com.obscuria]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23239!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23238!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[24Jun2025 00:46:11.714] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[24Jun2025 00:46:12.053] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:178]: curiosIntegration not found in the [common.backpackSettings] section.
+[24Jun2025 00:46:12.452] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[24Jun2025 00:46:12.452] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[24Jun2025 00:46:12.456] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[24Jun2025 00:46:12.457] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[24Jun2025 00:46:12.458] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[24Jun2025 00:46:12.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[24Jun2025 00:46:12.462] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[24Jun2025 00:46:12.465] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[24Jun2025 00:46:12.636] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[24Jun2025 00:46:13.617] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[24Jun2025 00:46:13.617] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[24Jun2025 00:46:13.626] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[24Jun2025 00:46:13.630] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[24Jun2025 00:46:14.815] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
+[24Jun2025 00:46:15.231] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 1a5da5b9a04230cfc37e1149481cd119ae633449
+[24Jun2025 00:46:17.042] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[24Jun2025 00:46:17.230] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[24Jun2025 00:46:17.230] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[24Jun2025 00:46:18.459] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[24Jun2025 00:46:23.197] [Worker-Main-1/WARN] [com.ferreusveritas.dynamictrees.tree.species.PalmSpecies/]: Family dtbop:palm for palm species dtbop:palm is not of type class com.ferreusveritas.dynamictrees.tree.family.PalmFamily
+[24Jun2025 00:46:24.493] [main/INFO] [Moonlight/]: Initialized block sets in 48ms
+[24Jun2025 00:46:25.602] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[24Jun2025 00:46:26.416] [modloading-worker-0/INFO] [untamedwilds.UntamedWilds/]: Registering Packets!
+[24Jun2025 00:46:26.421] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[24Jun2025 00:46:26.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[24Jun2025 00:46:26.475] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[24Jun2025 00:46:26.489] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[24Jun2025 00:46:26.526] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23238!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23238!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[24Jun2025 00:46:26.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[24Jun2025 00:46:26.588] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[24Jun2025 00:46:26.605] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[24Jun2025 00:46:26.616] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[24Jun2025 00:46:26.619] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[24Jun2025 00:46:26.621] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[24Jun2025 00:46:26.619] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[24Jun2025 00:46:26.656] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[24Jun2025 00:46:26.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[24Jun2025 00:46:26.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.39 Target: null
+[24Jun2025 00:46:26.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [minetraps] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/MineTraps.json
+[24Jun2025 00:46:26.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [minetraps] Found status: UP_TO_DATE Current: 2.3.0a Target: null
+[24Jun2025 00:46:26.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Jun2025 00:46:27.106] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[24Jun2025 00:46:27.106] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[24Jun2025 00:46:27.133] [main/INFO] [journeymap/]: Initializing Packet Registries
+[24Jun2025 00:46:27.167] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[24Jun2025 00:46:27.167] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[24Jun2025 00:46:27.168] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[24Jun2025 00:46:27.168] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[24Jun2025 00:46:27.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.6.9 Target: null
+[24Jun2025 00:46:27.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[24Jun2025 00:46:27.370] [main/INFO] [Moonlight/]: Initialized color sets in 177ms
+[24Jun2025 00:46:27.374] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[24Jun2025 00:46:27.374] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[24Jun2025 00:46:27.375] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[24Jun2025 00:46:27.375] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[24Jun2025 00:46:27.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[24Jun2025 00:46:27.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[24Jun2025 00:46:27.376] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[24Jun2025 00:46:27.543] [main/INFO] [Supplementaries/]: Finished mod setup in: [29, 3, 0, 1, 0, 0, 23, 24, 3] ms
+[24Jun2025 00:46:27.615] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[24Jun2025 00:46:27.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.30 Target: 1.20.1-2.5.31
+[24Jun2025 00:46:27.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[24Jun2025 00:46:27.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.4 Target: null
+[24Jun2025 00:46:27.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[24Jun2025 00:46:27.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[24Jun2025 00:46:27.869] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[24Jun2025 00:46:27.879] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.31 Target: null
+[24Jun2025 00:46:27.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[24Jun2025 00:46:27.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[24Jun2025 00:46:27.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[24Jun2025 00:46:28.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[24Jun2025 00:46:28.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[24Jun2025 00:46:28.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 8.9.8
+[24Jun2025 00:46:28.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[24Jun2025 00:46:28.169] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[24Jun2025 00:46:28.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.0 Target: null
+[24Jun2025 00:46:28.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dtbop] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/Add-ons/BOP.json?raw=true
+[24Jun2025 00:46:28.202] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[24Jun2025 00:46:28.209] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[24Jun2025 00:46:28.213] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[24Jun2025 00:46:28.213] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[24Jun2025 00:46:28.214] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[24Jun2025 00:46:28.217] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[24Jun2025 00:46:28.219] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[24Jun2025 00:46:28.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dtbop] Found status: BETA Current: 1.20.1-3.3.2 Target: null
+[24Jun2025 00:46:28.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[24Jun2025 00:46:28.458] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23238!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23238!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[24Jun2025 00:46:29.565] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Jun2025 00:46:30.562] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-mods/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23237!/assets/.mcassetsroot' uses unexpected schema
+[24Jun2025 00:46:30.563] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-mods/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23237!/data/.mcassetsroot' uses unexpected schema
+[24Jun2025 00:46:31.119] [main/INFO] [com.simibubi.create.Create/]: Created 612 recipes which will be injected into the game
+[24Jun2025 00:46:31.134] [main/INFO] [com.simibubi.create.Create/]: Created 36 tags which will be injected into the game
+[24Jun2025 00:46:31.384] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 93 ms
+[24Jun2025 00:46:35.969] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[24Jun2025 00:46:36.208] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.6.jar
+[24Jun2025 00:46:37.503] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dtbop:trees/voluntary/glowshroom
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dtbop:glowshroom_seed'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[24Jun2025 00:46:37.873] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dtbop:trees/voluntary/toadstool
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dtbop:toadstool_seed'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[24Jun2025 00:46:39.095] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[24Jun2025 00:46:39.196] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.196] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.196] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.196] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.197] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.197] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.197] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:46:39.197] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[24Jun2025 00:46:39.292] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[24Jun2025 00:46:39.351] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_jungle_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_jungle_door'
+[24Jun2025 00:46:39.422] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[24Jun2025 00:46:39.502] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_birch_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_birch_door'
+[24Jun2025 00:46:39.534] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_acacia_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_acacia_door'
+[24Jun2025 00:46:39.579] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_crimson_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_crimson_door'
+[24Jun2025 00:46:39.624] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_sliding_warped_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:sliding_warped_door'
+[24Jun2025 00:46:39.652] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_screen_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:screen_mangrove_door'
+[24Jun2025 00:46:39.664] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[24Jun2025 00:46:39.698] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_shack_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:shack_mangrove_door'
+[24Jun2025 00:46:39.723] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_tiled_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:tiled_mangrove_door'
+[24Jun2025 00:46:39.744] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethers_exorcism_reborn:electrumarmorcraft: com.google.gson.JsonSyntaxException: Unknown item 'oreganized:electrum_block'
+[24Jun2025 00:46:39.765] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_spruce_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_spruce_door'
+[24Jun2025 00:46:39.778] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[24Jun2025 00:46:39.780] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethers_exorcism_reborn:stripped_turq_toplankscreate: com.google.gson.JsonSyntaxException: Unknown item 'nethers_exorcism_reborn:stripped_turquoise_bamboo_log'
+[24Jun2025 00:46:39.786] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_warped_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_warped_door'
+[24Jun2025 00:46:39.797] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_mangrove_door'
+[24Jun2025 00:46:39.813] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_dark_oak_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_dark_oak_door'
+[24Jun2025 00:46:39.830] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 43 recipes
+[24Jun2025 00:46:39.892] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_warped_door: Unknown item id 'chipped:classic_windowed_warped_door'
+[24Jun2025 00:46:39.918] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_sliding_warped_door: Unknown item id 'chipped:sliding_warped_door'
+[24Jun2025 00:46:39.946] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_screen_mangrove_door: Unknown item id 'chipped:screen_mangrove_door'
+[24Jun2025 00:46:39.955] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_tiled_mangrove_door: Unknown item id 'chipped:tiled_mangrove_door'
+[24Jun2025 00:46:39.969] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_spruce_door: Unknown item id 'chipped:classic_windowed_spruce_door'
+[24Jun2025 00:46:39.981] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_dark_oak_door: Unknown item id 'chipped:classic_windowed_dark_oak_door'
+[24Jun2025 00:46:40.009] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_jungle_door: Unknown item id 'chipped:classic_windowed_jungle_door'
+[24Jun2025 00:46:40.016] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_mangrove_door: Unknown item id 'chipped:classic_windowed_mangrove_door'
+[24Jun2025 00:46:40.095] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_acacia_door: Unknown item id 'chipped:classic_windowed_acacia_door'
+[24Jun2025 00:46:40.149] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_birch_door: Unknown item id 'chipped:classic_windowed_birch_door'
+[24Jun2025 00:46:40.173] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_shack_mangrove_door: Unknown item id 'chipped:shack_mangrove_door'
+[24Jun2025 00:46:40.185] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_crimson_door: Unknown item id 'chipped:classic_windowed_crimson_door'
+[24Jun2025 00:46:40.247] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5923 advancements
+[24Jun2025 00:46:40.258] [main/INFO] [Dungeon Crawl/]: Loading data...
+[24Jun2025 00:46:40.858] [main/INFO] [Dungeon Crawl/]: Done.
+[24Jun2025 00:46:40.863] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: spawn_tables
+[24Jun2025 00:46:40.864] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for spawn_tables loaded 8 jsons
+[24Jun2025 00:46:40.864] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: entities
+[24Jun2025 00:46:40.880] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for entities loaded 37 jsons
+[24Jun2025 00:46:40.899] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[24Jun2025 00:46:40.902] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[24Jun2025 00:46:40.912] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[24Jun2025 00:46:40.972] [main/ERROR] [com.ferreusveritas.dynamictrees.api.resource.loading.preparation.JsonRegistryResourceLoader/]: Error whilst loading type "Species" with name "dtbop:aspen": [primitive_sapling] Json element was not a json object.
+[24Jun2025 00:46:41.158] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[24Jun2025 00:46:41.313] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[24Jun2025 00:46:41.413] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[24Jun2025 00:46:41.464] [main/WARN] [ModernFix/]: Initial datapack load took 10.25 s
+[24Jun2025 00:46:41.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[24Jun2025 00:46:41.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24Jun2025 00:46:41.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24Jun2025 00:46:41.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Jun2025 00:46:42.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[24Jun2025 00:46:42.070] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[24Jun2025 00:46:42.188] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[24Jun2025 00:46:42.188] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[24Jun2025 00:46:42.189] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[24Jun2025 00:46:42.189] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[24Jun2025 00:46:42.205] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[24Jun2025 00:46:42.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/minetraps-server.toml is not correct. Correcting
+[24Jun2025 00:46:42.228] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.quicksand_damage was corrected from 0 to its default, 1. 
+[24Jun2025 00:46:43.325] [Server thread/INFO] [Framework/]: Loading server configs...
+[24Jun2025 00:46:43.356] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[24Jun2025 00:46:44.556] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[24Jun2025 00:46:44.558] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24Jun2025 00:46:46.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Jun2025 00:46:49.754] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:49.755] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:49.756] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:49.757] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:49.757] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:49.758] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:49.758] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:50.162] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Jun2025 00:46:50.682] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4021 ms
+[24Jun2025 00:46:50.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.479s)! For help, type "help"
+[24Jun2025 00:46:50.807] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24Jun2025 00:46:51.291] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[24Jun2025 00:46:51.465] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[24Jun2025 00:46:51.497] [Server thread/WARN] [ModernFix/]: Dedicated server took 68.715 seconds to load
+[24Jun2025 00:46:51.499] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[24Jun2025 00:47:21.434] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jhosan_ty[/127.211.72.204:46281] logged in with entity id 878 at (184.3958184360716, 74.0, 1276.6813974080264)
+[24Jun2025 00:47:21.756] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player jhosan_ty
+[24Jun2025 00:47:21.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhosan_ty joined the game
+[24Jun2025 00:47:21.992] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:47:22.013] [Server thread/INFO] [Jade/]: Syncing config to jhosan_ty (9cd4b160-2cb2-3c0a-b2f2-128777b6f7d0)
+[24Jun2025 00:47:22.512] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of jhosan_ty (18)
+[24Jun2025 00:47:22.516] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to jhosan_ty
+[24Jun2025 00:47:34.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12950ms or 259 ticks behind
+[24Jun2025 00:48:25.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Created new objective [vida]]
+[24Jun2025 00:48:34.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set display slot list to show objective vida]
+[24Jun2025 00:48:52.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Created new objective [muertes]]
+[24Jun2025 00:49:06.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set display slot sidebar to show objective muertes]
+[24Jun2025 00:49:42.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2 chunks (0.00%), ETA: 5:50:32, Rate: 18.7 cps, Current: 6, 71
+[24Jun2025 00:49:46.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4 chunks (0.00%), ETA: 128:38:21, Rate: 0.8 cps, Current: 6, 70
+[24Jun2025 00:49:48.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7 chunks (0.00%), ETA: 98:40:13, Rate: 1.1 cps, Current: 5, 69
+[24Jun2025 00:49:51.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10 chunks (0.00%), ETA: 96:54:13, Rate: 1.1 cps, Current: 5, 68
+[24Jun2025 00:49:59.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13 chunks (0.00%), ETA: 142:03:03, Rate: 0.8 cps, Current: 4, 68
+[24Jun2025 00:50:00.115] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [10, 69], pos: MutableBlockPos{x=165, y=80, z=1104}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureVegetation@259e1c6c: net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration@211498f6}
+[24Jun2025 00:50:00.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 29 chunks (0.01%), ETA: 67:28:15, Rate: 1.6 cps, Current: 2, 70
+[24Jun2025 00:50:01.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 35 chunks (0.01%), ETA: 60:33:29, Rate: 1.8 cps, Current: 5, 66
+[24Jun2025 00:50:02.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 39 chunks (0.01%), ETA: 57:08:57, Rate: 1.9 cps, Current: 10, 67
+[24Jun2025 00:50:03.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 44 chunks (0.01%), ETA: 53:22:44, Rate: 2.0 cps, Current: 11, 66
+[24Jun2025 00:50:04.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 67 chunks (0.02%), ETA: 37:02:39, Rate: 2.9 cps, Current: 12, 67
+[24Jun2025 00:50:05.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 70 chunks (0.02%), ETA: 37:02:33, Rate: 2.9 cps, Current: 1, 68
+[24Jun2025 00:50:07.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 183 chunks (0.05%), ETA: 14:55:00, Rate: 7.3 cps, Current: 14, 67
+[24Jun2025 00:50:08.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 189 chunks (0.05%), ETA: 15:04:37, Rate: 7.2 cps, Current: 2, 71
+[24Jun2025 00:50:09.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 195 chunks (0.05%), ETA: 15:22:09, Rate: 7.1 cps, Current: 4, 74
+[24Jun2025 00:50:10.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set the world spawn point to 335, 105, 1211 [0.0]]
+[24Jun2025 00:50:11.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 198 chunks (0.05%), ETA: 16:04:20, Rate: 6.8 cps, Current: 15, 67
+[24Jun2025 00:50:17.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 199 chunks (0.05%), ETA: 16:12:06, Rate: 6.7 cps, Current: 3, 73
+[24Jun2025 00:50:17.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:50:20.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:50:21.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 211 chunks (0.05%), ETA: 12:08:24, Rate: 9.0 cps, Current: 15, 66
+[24Jun2025 00:50:22.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 217 chunks (0.06%), ETA: 12:23:20, Rate: 8.8 cps, Current: 3, 78
+[24Jun2025 00:50:31.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 218 chunks (0.06%), ETA: 17:40:23, Rate: 6.2 cps, Current: 4, 79
+[24Jun2025 00:50:32.424] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nex_6[/127.219.65.32:44859] logged in with entity id 3519 at (335.5, 99.0, 1221.5)
+[24Jun2025 00:50:32.513] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Nex_6
+[24Jun2025 00:50:32.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 joined the game
+[24Jun2025 00:50:32.818] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:50:32.966] [Server thread/INFO] [Jade/]: Syncing config to Nex_6 (6ec086b9-bd1d-3de5-9621-ffa7c25b811d)
+[24Jun2025 00:50:33.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 has made the advancement [Orcz Challenges]
+[24Jun2025 00:50:35.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 258 chunks (0.07%), ETA: 17:13:25, Rate: 6.3 cps, Current: 4, 82
+[24Jun2025 00:50:42.209] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Nex_6 (18)
+[24Jun2025 00:50:42.210] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Nex_6
+[24Jun2025 00:50:45.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 262 chunks (0.07%), ETA: 48:47:28, Rate: 2.2 cps, Current: 1, 77
+[24Jun2025 00:50:47.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 276 chunks (0.07%), ETA: 43:01:07, Rate: 2.5 cps, Current: 8, 64
+[24Jun2025 00:50:48.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 285 chunks (0.07%), ETA: 39:19:14, Rate: 2.8 cps, Current: 4, 87
+[24Jun2025 00:50:49.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 288 chunks (0.07%), ETA: 39:16:37, Rate: 2.8 cps, Current: 1, 84
+[24Jun2025 00:50:51.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 295 chunks (0.08%), ETA: 40:15:35, Rate: 2.7 cps, Current: 0, 67
+[24Jun2025 00:50:54.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 306 chunks (0.08%), ETA: 27:44:07, Rate: 3.9 cps, Current: 3, 90
+[24Jun2025 00:50:56.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 310 chunks (0.08%), ETA: 29:24:18, Rate: 3.7 cps, Current: 2, 92
+[24Jun2025 00:50:58.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 316 chunks (0.08%), ETA: 29:41:44, Rate: 3.7 cps, Current: 1, 89
+[24Jun2025 00:50:59.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 326 chunks (0.08%), ETA: 28:08:48, Rate: 3.9 cps, Current: 1, 93
+[24Jun2025 00:51:01.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 355 chunks (0.09%), ETA: 23:29:23, Rate: 4.6 cps, Current: 6, 91
+[24Jun2025 00:51:02.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 362 chunks (0.09%), ETA: 27:39:35, Rate: 3.9 cps, Current: 7, 91
+[24Jun2025 00:51:03.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 368 chunks (0.09%), ETA: 27:20:20, Rate: 4.0 cps, Current: 8, 92
+[24Jun2025 00:51:04.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 375 chunks (0.10%), ETA: 26:43:24, Rate: 4.1 cps, Current: 0, 75
+[24Jun2025 00:51:06.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 378 chunks (0.10%), ETA: 19:27:34, Rate: 5.6 cps, Current: 10, 92
+[24Jun2025 00:51:08.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 383 chunks (0.10%), ETA: 20:10:41, Rate: 5.4 cps, Current: 12, 92
+[24Jun2025 00:51:09.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 546 chunks (0.14%), ETA: 9:01:11, Rate: 12.1 cps, Current: 14, 92
+[24Jun2025 00:51:10.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 549 chunks (0.14%), ETA: 9:24:47, Rate: 11.6 cps, Current: 15, 92
+[24Jun2025 00:51:11.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 553 chunks (0.14%), ETA: 9:40:45, Rate: 11.3 cps, Current: 14, 94
+[24Jun2025 00:51:12.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 560 chunks (0.14%), ETA: 9:49:52, Rate: 11.1 cps, Current: 17, 92
+[24Jun2025 00:51:14.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 567 chunks (0.14%), ETA: 10:13:38, Rate: 10.7 cps, Current: 18, 93
+[24Jun2025 00:51:15.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 573 chunks (0.15%), ETA: 10:23:04, Rate: 10.5 cps, Current: 20, 93
+[24Jun2025 00:51:16.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 579 chunks (0.15%), ETA: 10:36:58, Rate: 10.3 cps, Current: 21, 94
+[24Jun2025 00:51:17.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 596 chunks (0.15%), ETA: 10:21:45, Rate: 10.5 cps, Current: 24, 88
+[24Jun2025 00:51:23.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 597 chunks (0.15%), ETA: 11:09:34, Rate: 9.8 cps, Current: 0, 79
+[24Jun2025 00:51:25.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 609 chunks (0.15%), ETA: 10:29:08, Rate: 10.4 cps, Current: 25, 88
+[24Jun2025 00:51:26.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 614 chunks (0.16%), ETA: 10:23:55, Rate: 10.5 cps, Current: 0, 94
+[24Jun2025 00:51:28.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 628 chunks (0.16%), ETA: 10:19:35, Rate: 10.6 cps, Current: 24, 93
+[24Jun2025 00:51:29.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 635 chunks (0.16%), ETA: 10:25:22, Rate: 10.5 cps, Current: 27, 91
+[24Jun2025 00:51:30.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 639 chunks (0.16%), ETA: 11:09:04, Rate: 9.8 cps, Current: 0, 95
+[24Jun2025 00:51:32.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 642 chunks (0.16%), ETA: 11:37:35, Rate: 9.4 cps, Current: 3, 95
+[24Jun2025 00:51:33.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 644 chunks (0.16%), ETA: 11:43:15, Rate: 9.3 cps, Current: 5, 95
+[24Jun2025 00:51:33.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhosan_ty has made the advancement [Amateur Archaeologist]
+[24Jun2025 00:51:34.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 675 chunks (0.17%), ETA: 10:15:47, Rate: 10.6 cps, Current: 28, 91
+[24Jun2025 00:51:37.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 676 chunks (0.17%), ETA: 10:39:04, Rate: 10.2 cps, Current: 28, 90
+[24Jun2025 00:51:38.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 997 chunks (0.25%), ETA: 5:16:00, Rate: 20.7 cps, Current: 23, 95
+[24Jun2025 00:51:39.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1007 chunks (0.26%), ETA: 6:53:17, Rate: 15.8 cps, Current: 32, 67
+[24Jun2025 00:51:40.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1010 chunks (0.26%), ETA: 6:57:17, Rate: 15.7 cps, Current: 30, 94
+[24Jun2025 00:51:41.069] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/1356, l='ServerLevel[world]', x=303.04, y=107.00, z=1179.12] died, message: 'Librarian was slain by Orc Savage with Iron Mace'
+[24Jun2025 00:51:43.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1016 chunks (0.26%), ETA: 7:04:20, Rate: 15.4 cps, Current: 33, 68
+[24Jun2025 00:51:46.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1021 chunks (0.26%), ETA: 7:24:02, Rate: 14.7 cps, Current: 32, 70
+[24Jun2025 00:51:47.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1026 chunks (0.26%), ETA: 6:04:56, Rate: 17.9 cps, Current: 35, 69
+[24Jun2025 00:51:49.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1029 chunks (0.26%), ETA: 6:25:07, Rate: 17.0 cps, Current: 34, 67
+[24Jun2025 00:51:50.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1037 chunks (0.26%), ETA: 6:35:32, Rate: 16.5 cps, Current: 36, 68
+[24Jun2025 00:51:51.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1042 chunks (0.27%), ETA: 6:49:03, Rate: 16.0 cps, Current: 37, 67
+[24Jun2025 00:51:53.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1044 chunks (0.27%), ETA: 7:09:23, Rate: 15.2 cps, Current: 37, 66
+[24Jun2025 00:51:54.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1049 chunks (0.27%), ETA: 7:13:21, Rate: 15.1 cps, Current: 38, 69
+[24Jun2025 00:51:55.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1053 chunks (0.27%), ETA: 7:09:10, Rate: 15.2 cps, Current: 37, 65
+[24Jun2025 00:51:57.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1056 chunks (0.27%), ETA: 7:25:54, Rate: 14.7 cps, Current: 31, 90
+[24Jun2025 00:51:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1064 chunks (0.27%), ETA: 7:31:18, Rate: 14.5 cps, Current: 31, 91
+[24Jun2025 00:51:59.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1066 chunks (0.27%), ETA: 7:31:58, Rate: 14.5 cps, Current: 31, 92
+[24Jun2025 00:52:01.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1067 chunks (0.27%), ETA: 7:28:34, Rate: 14.6 cps, Current: 31, 93
+[24Jun2025 00:52:07.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1081 chunks (0.27%), ETA: 37:26:03, Rate: 2.9 cps, Current: 38, 71
+[24Jun2025 00:52:08.504] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1d1f4458[id=<null>,name=BunnyGao,properties={},legacy=false] (/127.221.50.186:60587) lost connection: Disconnected
+[24Jun2025 00:52:08.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1086 chunks (0.28%), ETA: 39:27:26, Rate: 2.8 cps, Current: 41, 67
+[24Jun2025 00:52:10.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1091 chunks (0.28%), ETA: 39:07:17, Rate: 2.8 cps, Current: 44, 66
+[24Jun2025 00:52:11.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1101 chunks (0.28%), ETA: 35:13:31, Rate: 3.1 cps, Current: 45, 67
+[24Jun2025 00:52:12.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1108 chunks (0.28%), ETA: 33:57:27, Rate: 3.2 cps, Current: 45, 69
+[24Jun2025 00:52:13.655] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BunnyGao[/127.221.50.186:50575] logged in with entity id 5650 at (325.5, 98.0, 1219.5)
+[24Jun2025 00:52:13.743] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player BunnyGao
+[24Jun2025 00:52:13.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao joined the game
+[24Jun2025 00:52:13.873] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:52:13.998] [Server thread/INFO] [Jade/]: Syncing config to BunnyGao (f2467641-635f-372b-bcf8-1aa4d3e5bc7d)
+[24Jun2025 00:52:14.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao has made the advancement [Orcz Challenges]
+[24Jun2025 00:52:14.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1115 chunks (0.28%), ETA: 31:35:33, Rate: 3.4 cps, Current: 44, 65
+[24Jun2025 00:52:14.962] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of BunnyGao (18)
+[24Jun2025 00:52:14.962] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to BunnyGao
+[24Jun2025 00:52:16.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1117 chunks (0.28%), ETA: 32:57:18, Rate: 3.3 cps, Current: 40, 71
+[24Jun2025 00:52:17.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1123 chunks (0.29%), ETA: 32:45:09, Rate: 3.3 cps, Current: 40, 73
+[24Jun2025 00:52:18.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1125 chunks (0.29%), ETA: 32:45:40, Rate: 3.3 cps, Current: 43, 70
+[24Jun2025 00:52:19.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1131 chunks (0.29%), ETA: 33:22:41, Rate: 3.3 cps, Current: 46, 68
+[24Jun2025 00:52:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1138 chunks (0.29%), ETA: 33:19:05, Rate: 3.3 cps, Current: 42, 72
+[24Jun2025 00:52:22.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1146 chunks (0.29%), ETA: 30:51:00, Rate: 3.5 cps, Current: 45, 73
+[24Jun2025 00:52:23.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1150 chunks (0.29%), ETA: 31:05:52, Rate: 3.5 cps, Current: 46, 71
+[24Jun2025 00:52:24.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1153 chunks (0.29%), ETA: 31:21:52, Rate: 3.5 cps, Current: 40, 74
+[24Jun2025 00:52:25.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1154 chunks (0.29%), ETA: 31:33:05, Rate: 3.5 cps, Current: 44, 74
+[24Jun2025 00:52:27.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1156 chunks (0.29%), ETA: 32:04:17, Rate: 3.4 cps, Current: 45, 76
+[24Jun2025 00:52:28.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1163 chunks (0.30%), ETA: 32:10:41, Rate: 3.4 cps, Current: 41, 75
+[24Jun2025 00:52:29.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1166 chunks (0.30%), ETA: 31:50:51, Rate: 3.4 cps, Current: 41, 76
+[24Jun2025 00:52:30.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1173 chunks (0.30%), ETA: 29:22:23, Rate: 3.7 cps, Current: 40, 76
+[24Jun2025 00:52:31.720] [Server thread/WARN] [tombstone/]: The death event of the player BunnyGao was canceled by another mod
+[24Jun2025 00:52:31.735] [Server thread/INFO] [tombstone/]: The player BunnyGao has successfully been saved
+[24Jun2025 00:52:32.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1176 chunks (0.30%), ETA: 29:05:45, Rate: 3.7 cps, Current: 46, 76
+[24Jun2025 00:52:35.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1178 chunks (0.30%), ETA: 30:58:50, Rate: 3.5 cps, Current: 37, 77
+[24Jun2025 00:52:36.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1181 chunks (0.30%), ETA: 31:12:48, Rate: 3.5 cps, Current: 38, 77
+[24Jun2025 00:52:37.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1189 chunks (0.30%), ETA: 30:09:16, Rate: 3.6 cps, Current: 39, 75
+[24Jun2025 00:52:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1192 chunks (0.30%), ETA: 30:12:11, Rate: 3.6 cps, Current: 38, 73
+[24Jun2025 00:52:39.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1224 chunks (0.31%), ETA: 23:49:14, Rate: 4.6 cps, Current: 33, 73
+[24Jun2025 00:52:40.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1236 chunks (0.31%), ETA: 23:22:33, Rate: 4.7 cps, Current: 33, 76
+[24Jun2025 00:52:42.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1252 chunks (0.32%), ETA: 22:02:22, Rate: 4.9 cps, Current: 47, 64
+[24Jun2025 00:52:43.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1256 chunks (0.32%), ETA: 21:57:30, Rate: 5.0 cps, Current: 47, 66
+[24Jun2025 00:52:45.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1260 chunks (0.32%), ETA: 22:11:15, Rate: 4.9 cps, Current: 34, 79
+[24Jun2025 00:52:46.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1272 chunks (0.32%), ETA: 21:24:56, Rate: 5.1 cps, Current: 47, 70
+[24Jun2025 00:52:47.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1277 chunks (0.32%), ETA: 20:50:43, Rate: 5.2 cps, Current: 37, 80
+[24Jun2025 00:52:49.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1283 chunks (0.33%), ETA: 20:52:01, Rate: 5.2 cps, Current: 37, 83
+[24Jun2025 00:52:50.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1294 chunks (0.33%), ETA: 19:47:56, Rate: 5.5 cps, Current: 38, 80
+[24Jun2025 00:52:51.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1299 chunks (0.33%), ETA: 20:06:00, Rate: 5.4 cps, Current: 47, 74
+[24Jun2025 00:52:53.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1305 chunks (0.33%), ETA: 20:38:15, Rate: 5.3 cps, Current: 35, 85
+[24Jun2025 00:52:55.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1311 chunks (0.33%), ETA: 20:38:29, Rate: 5.3 cps, Current: 32, 88
+[24Jun2025 00:52:57.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao was slain by Foliaath
+[24Jun2025 00:52:57.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao has made the advancement [Your First Grave]
+[24Jun2025 00:52:58.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1327 chunks (0.34%), ETA: 19:56:33, Rate: 5.5 cps, Current: 32, 90
+[24Jun2025 00:53:00.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1339 chunks (0.34%), ETA: 19:26:03, Rate: 5.6 cps, Current: 45, 79
+[24Jun2025 00:53:01.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1341 chunks (0.34%), ETA: 18:40:12, Rate: 5.8 cps, Current: 47, 79
+[24Jun2025 00:53:05.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:53:07.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1347 chunks (0.34%), ETA: 20:08:19, Rate: 5.4 cps, Current: 32, 93
+[24Jun2025 00:53:11.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1373 chunks (0.35%), ETA: 25:54:55, Rate: 4.2 cps, Current: 36, 88
+[24Jun2025 00:53:12.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1387 chunks (0.35%), ETA: 24:13:03, Rate: 4.5 cps, Current: 40, 88
+[24Jun2025 00:53:13.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1393 chunks (0.35%), ETA: 22:47:07, Rate: 4.8 cps, Current: 40, 89
+[24Jun2025 00:53:14.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1400 chunks (0.36%), ETA: 22:30:49, Rate: 4.8 cps, Current: 40, 92
+[24Jun2025 00:53:16.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1405 chunks (0.36%), ETA: 23:45:06, Rate: 4.6 cps, Current: 41, 90
+[24Jun2025 00:53:17.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1413 chunks (0.36%), ETA: 23:14:21, Rate: 4.7 cps, Current: 37, 94
+[24Jun2025 00:53:19.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1416 chunks (0.36%), ETA: 25:58:08, Rate: 4.2 cps, Current: 42, 91
+[24Jun2025 00:53:20.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1418 chunks (0.36%), ETA: 26:41:36, Rate: 4.1 cps, Current: 44, 92
+[24Jun2025 00:53:22.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1426 chunks (0.36%), ETA: 25:18:19, Rate: 4.3 cps, Current: 44, 90
+[24Jun2025 00:53:22.839] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LauOsamu[/127.94.116.192:53077] logged in with entity id 6803 at (328.5, 104.0, 1212.5)
+[24Jun2025 00:53:22.883] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LauOsamu
+[24Jun2025 00:53:22.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu joined the game
+[24Jun2025 00:53:23.004] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:53:23.088] [Server thread/INFO] [Jade/]: Syncing config to LauOsamu (20ed05a2-d8ec-3627-9d24-5ea40d83f6ed)
+[24Jun2025 00:53:23.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu has made the advancement [Orcz Challenges]
+[24Jun2025 00:53:23.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1429 chunks (0.36%), ETA: 25:52:13, Rate: 4.2 cps, Current: 45, 91
+[24Jun2025 00:53:24.453] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LauOsamu (18)
+[24Jun2025 00:53:24.454] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LauOsamu
+[24Jun2025 00:53:24.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1433 chunks (0.36%), ETA: 25:28:40, Rate: 4.3 cps, Current: 40, 94
+[24Jun2025 00:53:27.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1439 chunks (0.37%), ETA: 27:37:38, Rate: 3.9 cps, Current: 44, 89
+[24Jun2025 00:53:28.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1444 chunks (0.37%), ETA: 27:34:02, Rate: 3.9 cps, Current: 45, 87
+[24Jun2025 00:53:30.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1449 chunks (0.37%), ETA: 29:16:30, Rate: 3.7 cps, Current: 40, 87
+[24Jun2025 00:53:31.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1453 chunks (0.37%), ETA: 28:40:01, Rate: 3.8 cps, Current: 41, 86
+[24Jun2025 00:53:32.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1475 chunks (0.38%), ETA: 21:03:52, Rate: 5.2 cps, Current: 41, 80
+[24Jun2025 00:53:34.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1481 chunks (0.38%), ETA: 21:21:13, Rate: 5.1 cps, Current: 43, 83
+[24Jun2025 00:53:35.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1495 chunks (0.38%), ETA: 20:06:34, Rate: 5.4 cps, Current: 46, 88
+[24Jun2025 00:53:37.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1505 chunks (0.38%), ETA: 20:17:56, Rate: 5.4 cps, Current: 41, 95
+[24Jun2025 00:53:37.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:53:40.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1509 chunks (0.38%), ETA: 22:57:00, Rate: 4.7 cps, Current: 44, 95
+[24Jun2025 00:53:42.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1514 chunks (0.39%), ETA: 25:14:36, Rate: 4.3 cps, Current: 45, 81
+[24Jun2025 00:53:44.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:53:45.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1524 chunks (0.39%), ETA: 26:29:28, Rate: 4.1 cps, Current: 49, 82
+[24Jun2025 00:53:47.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1529 chunks (0.39%), ETA: 26:42:59, Rate: 4.1 cps, Current: 50, 83
+[24Jun2025 00:53:48.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1533 chunks (0.39%), ETA: 26:45:42, Rate: 4.1 cps, Current: 53, 82
+[24Jun2025 00:53:53.174] [Server thread/WARN] [tombstone/]: The death event of the player Nex_6 was canceled by another mod
+[24Jun2025 00:53:53.191] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 00:53:55.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1539 chunks (0.39%), ETA: 29:40:45, Rate: 3.7 cps, Current: 52, 84
+[24Jun2025 00:53:56.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1545 chunks (0.39%), ETA: 29:26:09, Rate: 3.7 cps, Current: 53, 84
+[24Jun2025 00:53:57.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1557 chunks (0.40%), ETA: 27:24:59, Rate: 4.0 cps, Current: 47, 86
+[24Jun2025 00:53:59.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1563 chunks (0.40%), ETA: 27:25:46, Rate: 4.0 cps, Current: 52, 86
+[24Jun2025 00:54:00.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1576 chunks (0.40%), ETA: 25:29:16, Rate: 4.3 cps, Current: 48, 89
+[24Jun2025 00:54:01.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1583 chunks (0.40%), ETA: 28:51:50, Rate: 3.8 cps, Current: 47, 93
+[24Jun2025 00:54:02.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1588 chunks (0.40%), ETA: 28:47:40, Rate: 3.8 cps, Current: 49, 90
+[24Jun2025 00:54:03.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1595 chunks (0.41%), ETA: 27:59:23, Rate: 3.9 cps, Current: 46, 95
+[24Jun2025 00:54:04.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:54:05.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1599 chunks (0.41%), ETA: 31:01:37, Rate: 3.5 cps, Current: 50, 93
+[24Jun2025 00:54:06.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1612 chunks (0.41%), ETA: 29:03:42, Rate: 3.7 cps, Current: 49, 80
+[24Jun2025 00:54:06.773] [Server thread/WARN] [tombstone/]: The death event of the player Nex_6 was canceled by another mod
+[24Jun2025 00:54:06.789] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 00:54:08.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhosan_ty has made the advancement [Stone Age]
+[24Jun2025 00:54:08.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1613 chunks (0.41%), ETA: 29:24:40, Rate: 3.7 cps, Current: 51, 92
+[24Jun2025 00:54:09.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1620 chunks (0.41%), ETA: 28:46:43, Rate: 3.8 cps, Current: 52, 93
+[24Jun2025 00:54:11.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1627 chunks (0.41%), ETA: 28:14:33, Rate: 3.9 cps, Current: 54, 88
+[24Jun2025 00:54:13.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1629 chunks (0.41%), ETA: 28:33:21, Rate: 3.8 cps, Current: 51, 94
+[24Jun2025 00:54:14.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhosan_ty has made the advancement [Getting an Upgrade]
+[24Jun2025 00:54:14.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1637 chunks (0.42%), ETA: 27:44:11, Rate: 3.9 cps, Current: 55, 90
+[24Jun2025 00:54:15.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1646 chunks (0.42%), ETA: 26:17:45, Rate: 4.1 cps, Current: 56, 92
+[24Jun2025 00:54:16.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:54:17.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1650 chunks (0.42%), ETA: 26:33:17, Rate: 4.1 cps, Current: 58, 91
+[24Jun2025 00:54:18.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1656 chunks (0.42%), ETA: 26:09:34, Rate: 4.2 cps, Current: 57, 93
+[24Jun2025 00:54:19.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1658 chunks (0.42%), ETA: 21:52:14, Rate: 5.0 cps, Current: 58, 93
+[24Jun2025 00:54:20.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 was slain by BunnyGao
+[24Jun2025 00:54:20.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 has made the advancement [Your First Grave]
+[24Jun2025 00:54:20.192] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 00:54:21.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu has made the advancement [Knowledge of Death]
+[24Jun2025 00:54:21.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu has made the advancement [Funeral Theft]
+[24Jun2025 00:54:22.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1662 chunks (0.42%), ETA: 23:29:32, Rate: 4.6 cps, Current: 51, 80
+[24Jun2025 00:54:23.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1666 chunks (0.42%), ETA: 23:36:33, Rate: 4.6 cps, Current: 54, 80
+[24Jun2025 00:54:24.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1667 chunks (0.42%), ETA: 24:21:39, Rate: 4.5 cps, Current: 60, 93
+[24Jun2025 00:54:25.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1675 chunks (0.43%), ETA: 23:52:23, Rate: 4.6 cps, Current: 59, 91
+[24Jun2025 00:54:26.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1683 chunks (0.43%), ETA: 23:24:50, Rate: 4.6 cps, Current: 62, 91
+[24Jun2025 00:54:28.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set the time to 1000]
+[24Jun2025 00:54:28.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1688 chunks (0.43%), ETA: 25:26:49, Rate: 4.3 cps, Current: 60, 88
+[24Jun2025 00:54:29.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1699 chunks (0.43%), ETA: 25:46:24, Rate: 4.2 cps, Current: 59, 87
+[24Jun2025 00:54:30.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1713 chunks (0.44%), ETA: 24:23:34, Rate: 4.5 cps, Current: 62, 87
+[24Jun2025 00:54:32.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1723 chunks (0.44%), ETA: 23:34:03, Rate: 4.6 cps, Current: 61, 85
+[24Jun2025 00:54:33.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1729 chunks (0.44%), ETA: 23:47:47, Rate: 4.6 cps, Current: 57, 83
+[24Jun2025 00:54:34.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1735 chunks (0.44%), ETA: 23:09:18, Rate: 4.7 cps, Current: 57, 82
+[24Jun2025 00:54:35.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1743 chunks (0.44%), ETA: 24:01:15, Rate: 4.5 cps, Current: 57, 81
+[24Jun2025 00:54:35.910] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	Index: 3
+	Listeners:
+		0: HIGHEST
+		1: ASM: class ovh.corail.tombstone.event.EventHandler onPlayerInteractEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		2: HIGH
+		3: ASM: class tschipp.carryon.events.CommonEvents onEntityRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerInteractEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		5: ASM: class com.simibubi.create.content.contraptions.minecart.MinecartCouplingItem handleInteractionWithMinecart(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		6: ASM: team.creative.playerrevive.server.ReviveEventServer@29937e3 playerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		7: NORMAL
+		8: ASM: com.bobmowzie.mowziesmobs.server.ServerEventHandler@2c16e6a6 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		9: ASM: com.bobmowzie.mowziesmobs.server.ability.AbilityCommonEventHandler@31508c98 onPlayerRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		10: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@ff670af onInteractWithEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		11: ASM: class untamedwilds.util.ModEntityRightClickEvent modEntityRightClickEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		12: ASM: class net.mcreator.nethersexorcismreborn.procedures.TamedStramplerRightClickedOnEntityProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		13: ASM: class vectorwing.farmersdelight.common.item.HorseFeedItem$HorseFeedEvent onHorseFeedApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		14: ASM: class vectorwing.farmersdelight.common.item.DogFoodItem$DogFoodEvent onDogFoodApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		15: ASM: class net.mcreator.sonsofsins.procedures.NibblerBucketedProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		16: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@1d052176 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		17: ASM: class net.mcreator.borninchaosv.procedures.TransmutingElixirclicProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		18: ASM: class net.mcreator.borninchaosv.procedures.ThornshellCrabPriShchielchkiePKMPoSushchnostiProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		19: ASM: class net.mcreator.borninchaosv.procedures.SwarmerPreparationProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		20: ASM: class net.mcreator.borninchaosv.procedures.DreadHoundPriNazhatiiPravoiKnopkiNaSushchnostProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		21: ASM: class net.mcreator.borninchaosv.procedures.DarkRitualDaggerPProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		22: ASM: class com.simibubi.create.content.contraptions.mounted.MinecartContraptionItem wrenchCanBeUsedToPickUpMinecartContraptions(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		23: ASM: de.maxhenkel.camera.ServerEvents@1d17d961 onLeftClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		24: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent;)V
+		25: LOW
+		26: ASM: class net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge onEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[24Jun2025 00:54:35.921] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@e019ff0, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[24Jun2025 00:54:36.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1751 chunks (0.45%), ETA: 22:11:09, Rate: 4.9 cps, Current: 61, 82
+[24Jun2025 00:54:37.325] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	Index: 3
+	Listeners:
+		0: HIGHEST
+		1: ASM: class ovh.corail.tombstone.event.EventHandler onPlayerInteractEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		2: HIGH
+		3: ASM: class tschipp.carryon.events.CommonEvents onEntityRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerInteractEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		5: ASM: class com.simibubi.create.content.contraptions.minecart.MinecartCouplingItem handleInteractionWithMinecart(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		6: ASM: team.creative.playerrevive.server.ReviveEventServer@29937e3 playerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		7: NORMAL
+		8: ASM: com.bobmowzie.mowziesmobs.server.ServerEventHandler@2c16e6a6 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		9: ASM: com.bobmowzie.mowziesmobs.server.ability.AbilityCommonEventHandler@31508c98 onPlayerRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		10: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@ff670af onInteractWithEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		11: ASM: class untamedwilds.util.ModEntityRightClickEvent modEntityRightClickEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		12: ASM: class net.mcreator.nethersexorcismreborn.procedures.TamedStramplerRightClickedOnEntityProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		13: ASM: class vectorwing.farmersdelight.common.item.HorseFeedItem$HorseFeedEvent onHorseFeedApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		14: ASM: class vectorwing.farmersdelight.common.item.DogFoodItem$DogFoodEvent onDogFoodApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		15: ASM: class net.mcreator.sonsofsins.procedures.NibblerBucketedProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		16: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@1d052176 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		17: ASM: class net.mcreator.borninchaosv.procedures.TransmutingElixirclicProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		18: ASM: class net.mcreator.borninchaosv.procedures.ThornshellCrabPriShchielchkiePKMPoSushchnostiProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		19: ASM: class net.mcreator.borninchaosv.procedures.SwarmerPreparationProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		20: ASM: class net.mcreator.borninchaosv.procedures.DreadHoundPriNazhatiiPravoiKnopkiNaSushchnostProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		21: ASM: class net.mcreator.borninchaosv.procedures.DarkRitualDaggerPProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		22: ASM: class com.simibubi.create.content.contraptions.mounted.MinecartContraptionItem wrenchCanBeUsedToPickUpMinecartContraptions(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		23: ASM: de.maxhenkel.camera.ServerEvents@1d17d961 onLeftClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		24: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent;)V
+		25: LOW
+		26: ASM: class net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge onEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[24Jun2025 00:54:37.328] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@1476d7a0, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[24Jun2025 00:54:37.332] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	Index: 3
+	Listeners:
+		0: HIGHEST
+		1: ASM: class ovh.corail.tombstone.event.EventHandler onPlayerInteractEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		2: HIGH
+		3: ASM: class tschipp.carryon.events.CommonEvents onEntityRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerInteractEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		5: ASM: class com.simibubi.create.content.contraptions.minecart.MinecartCouplingItem handleInteractionWithMinecart(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		6: ASM: team.creative.playerrevive.server.ReviveEventServer@29937e3 playerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		7: NORMAL
+		8: ASM: com.bobmowzie.mowziesmobs.server.ServerEventHandler@2c16e6a6 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		9: ASM: com.bobmowzie.mowziesmobs.server.ability.AbilityCommonEventHandler@31508c98 onPlayerRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		10: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@ff670af onInteractWithEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		11: ASM: class untamedwilds.util.ModEntityRightClickEvent modEntityRightClickEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		12: ASM: class net.mcreator.nethersexorcismreborn.procedures.TamedStramplerRightClickedOnEntityProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		13: ASM: class vectorwing.farmersdelight.common.item.HorseFeedItem$HorseFeedEvent onHorseFeedApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		14: ASM: class vectorwing.farmersdelight.common.item.DogFoodItem$DogFoodEvent onDogFoodApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		15: ASM: class net.mcreator.sonsofsins.procedures.NibblerBucketedProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		16: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@1d052176 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		17: ASM: class net.mcreator.borninchaosv.procedures.TransmutingElixirclicProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		18: ASM: class net.mcreator.borninchaosv.procedures.ThornshellCrabPriShchielchkiePKMPoSushchnostiProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		19: ASM: class net.mcreator.borninchaosv.procedures.SwarmerPreparationProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		20: ASM: class net.mcreator.borninchaosv.procedures.DreadHoundPriNazhatiiPravoiKnopkiNaSushchnostProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		21: ASM: class net.mcreator.borninchaosv.procedures.DarkRitualDaggerPProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		22: ASM: class com.simibubi.create.content.contraptions.mounted.MinecartContraptionItem wrenchCanBeUsedToPickUpMinecartContraptions(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		23: ASM: de.maxhenkel.camera.ServerEvents@1d17d961 onLeftClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		24: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent;)V
+		25: LOW
+		26: ASM: class net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge onEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[24Jun2025 00:54:37.333] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@2a5b8040, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[24Jun2025 00:54:37.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1758 chunks (0.45%), ETA: 21:52:52, Rate: 5.0 cps, Current: 57, 80
+[24Jun2025 00:54:37.877] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	Index: 3
+	Listeners:
+		0: HIGHEST
+		1: ASM: class ovh.corail.tombstone.event.EventHandler onPlayerInteractEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		2: HIGH
+		3: ASM: class tschipp.carryon.events.CommonEvents onEntityRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerInteractEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		5: ASM: class com.simibubi.create.content.contraptions.minecart.MinecartCouplingItem handleInteractionWithMinecart(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		6: ASM: team.creative.playerrevive.server.ReviveEventServer@29937e3 playerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		7: NORMAL
+		8: ASM: com.bobmowzie.mowziesmobs.server.ServerEventHandler@2c16e6a6 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		9: ASM: com.bobmowzie.mowziesmobs.server.ability.AbilityCommonEventHandler@31508c98 onPlayerRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		10: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@ff670af onInteractWithEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		11: ASM: class untamedwilds.util.ModEntityRightClickEvent modEntityRightClickEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		12: ASM: class net.mcreator.nethersexorcismreborn.procedures.TamedStramplerRightClickedOnEntityProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		13: ASM: class vectorwing.farmersdelight.common.item.HorseFeedItem$HorseFeedEvent onHorseFeedApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		14: ASM: class vectorwing.farmersdelight.common.item.DogFoodItem$DogFoodEvent onDogFoodApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		15: ASM: class net.mcreator.sonsofsins.procedures.NibblerBucketedProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		16: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@1d052176 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		17: ASM: class net.mcreator.borninchaosv.procedures.TransmutingElixirclicProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		18: ASM: class net.mcreator.borninchaosv.procedures.ThornshellCrabPriShchielchkiePKMPoSushchnostiProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		19: ASM: class net.mcreator.borninchaosv.procedures.SwarmerPreparationProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		20: ASM: class net.mcreator.borninchaosv.procedures.DreadHoundPriNazhatiiPravoiKnopkiNaSushchnostProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		21: ASM: class net.mcreator.borninchaosv.procedures.DarkRitualDaggerPProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		22: ASM: class com.simibubi.create.content.contraptions.mounted.MinecartContraptionItem wrenchCanBeUsedToPickUpMinecartContraptions(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		23: ASM: de.maxhenkel.camera.ServerEvents@1d17d961 onLeftClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		24: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent;)V
+		25: LOW
+		26: ASM: class net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge onEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[24Jun2025 00:54:37.879] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@3452c595, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[24Jun2025 00:54:37.884] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	Index: 3
+	Listeners:
+		0: HIGHEST
+		1: ASM: class ovh.corail.tombstone.event.EventHandler onPlayerInteractEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		2: HIGH
+		3: ASM: class tschipp.carryon.events.CommonEvents onEntityRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		4: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerInteractEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		5: ASM: class com.simibubi.create.content.contraptions.minecart.MinecartCouplingItem handleInteractionWithMinecart(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		6: ASM: team.creative.playerrevive.server.ReviveEventServer@29937e3 playerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		7: NORMAL
+		8: ASM: com.bobmowzie.mowziesmobs.server.ServerEventHandler@2c16e6a6 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		9: ASM: com.bobmowzie.mowziesmobs.server.ability.AbilityCommonEventHandler@31508c98 onPlayerRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		10: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@ff670af onInteractWithEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		11: ASM: class untamedwilds.util.ModEntityRightClickEvent modEntityRightClickEvent(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		12: ASM: class net.mcreator.nethersexorcismreborn.procedures.TamedStramplerRightClickedOnEntityProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		13: ASM: class vectorwing.farmersdelight.common.item.HorseFeedItem$HorseFeedEvent onHorseFeedApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		14: ASM: class vectorwing.farmersdelight.common.item.DogFoodItem$DogFoodEvent onDogFoodApplied(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		15: ASM: class net.mcreator.sonsofsins.procedures.NibblerBucketedProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		16: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@1d052176 onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		17: ASM: class net.mcreator.borninchaosv.procedures.TransmutingElixirclicProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		18: ASM: class net.mcreator.borninchaosv.procedures.ThornshellCrabPriShchielchkiePKMPoSushchnostiProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		19: ASM: class net.mcreator.borninchaosv.procedures.SwarmerPreparationProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		20: ASM: class net.mcreator.borninchaosv.procedures.DreadHoundPriNazhatiiPravoiKnopkiNaSushchnostProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		21: ASM: class net.mcreator.borninchaosv.procedures.DarkRitualDaggerPProcedure onRightClickEntity(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		22: ASM: class com.simibubi.create.content.contraptions.mounted.MinecartContraptionItem wrenchCanBeUsedToPickUpMinecartContraptions(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		23: ASM: de.maxhenkel.camera.ServerEvents@1d17d961 onLeftClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+		24: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent;)V
+		25: LOW
+		26: ASM: class net.mehvahdjukaar.supplementaries.common.events.forge.ServerEventsForge onEntityInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124)
+	at TRANSFORMER/carryon@2.1.2.7/tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_36157_(Player.java:975)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[24Jun2025 00:54:37.891] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@3f55c451, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20206_()" because "entityHeld" is null
+	at tschipp.carryon.common.carry.PlacementHandler.tryStackEntity(PlacementHandler.java:199) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.CommonEvents.onEntityRightClick(CommonEvents.java:124) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at tschipp.carryon.events.__CommonEvents_onEntityRightClick_EntityInteract.invoke(.dynamic) ~[carryon-forge-1.20.1-2.1.2.7.jar%23181!/:2.1.2.7]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onInteractEntity(ForgeHooks.java:764) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:975) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1460) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1472) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1455) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[24Jun2025 00:54:40.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1761 chunks (0.45%), ETA: 23:04:31, Rate: 4.7 cps, Current: 62, 81
+[24Jun2025 00:54:42.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1767 chunks (0.45%), ETA: 23:04:04, Rate: 4.7 cps, Current: 60, 79
+[24Jun2025 00:54:45.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1770 chunks (0.45%), ETA: 25:15:36, Rate: 4.3 cps, Current: 61, 79
+[24Jun2025 00:54:46.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1775 chunks (0.45%), ETA: 25:06:45, Rate: 4.3 cps, Current: 60, 75
+[24Jun2025 00:54:47.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1779 chunks (0.45%), ETA: 25:52:02, Rate: 4.2 cps, Current: 62, 79
+[24Jun2025 00:54:48.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1785 chunks (0.45%), ETA: 25:00:15, Rate: 4.3 cps, Current: 59, 75
+[24Jun2025 00:54:51.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1787 chunks (0.45%), ETA: 25:10:51, Rate: 4.3 cps, Current: 62, 73
+[24Jun2025 00:54:52.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1791 chunks (0.46%), ETA: 25:20:34, Rate: 4.3 cps, Current: 58, 73
+[24Jun2025 00:54:53.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1801 chunks (0.46%), ETA: 23:38:09, Rate: 4.6 cps, Current: 58, 77
+[24Jun2025 00:54:54.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1816 chunks (0.46%), ETA: 22:20:28, Rate: 4.9 cps, Current: 60, 95
+[24Jun2025 00:54:56.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1824 chunks (0.46%), ETA: 22:14:54, Rate: 4.9 cps, Current: 54, 78
+[24Jun2025 00:54:57.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 has reached the goal [Here They Come]
+[24Jun2025 00:54:58.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1854 chunks (0.47%), ETA: 19:13:59, Rate: 5.7 cps, Current: 51, 76
+[24Jun2025 00:54:59.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1872 chunks (0.48%), ETA: 18:27:46, Rate: 5.9 cps, Current: 55, 75
+[24Jun2025 00:54:59.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:55:00.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1878 chunks (0.48%), ETA: 19:14:51, Rate: 5.6 cps, Current: 51, 73
+[24Jun2025 00:55:01.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1883 chunks (0.48%), ETA: 19:40:51, Rate: 5.5 cps, Current: 53, 72
+[24Jun2025 00:55:03.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1889 chunks (0.48%), ETA: 20:11:18, Rate: 5.4 cps, Current: 52, 71
+[24Jun2025 00:55:04.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1894 chunks (0.48%), ETA: 20:21:13, Rate: 5.3 cps, Current: 53, 70
+[24Jun2025 00:55:05.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1910 chunks (0.49%), ETA: 19:34:30, Rate: 5.6 cps, Current: 48, 68
+[24Jun2025 00:55:06.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1917 chunks (0.49%), ETA: 19:42:18, Rate: 5.5 cps, Current: 63, 91
+[24Jun2025 00:55:08.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1924 chunks (0.49%), ETA: 18:27:39, Rate: 5.9 cps, Current: 49, 66
+[24Jun2025 00:55:09.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1928 chunks (0.49%), ETA: 18:52:37, Rate: 5.8 cps, Current: 63, 87
+[24Jun2025 00:55:10.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1936 chunks (0.49%), ETA: 17:49:57, Rate: 6.1 cps, Current: 51, 65
+[24Jun2025 00:55:11.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:55:11.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1946 chunks (0.50%), ETA: 17:33:48, Rate: 6.2 cps, Current: 63, 85
+[24Jun2025 00:55:13.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1948 chunks (0.50%), ETA: 17:33:16, Rate: 6.2 cps, Current: 55, 66
+[24Jun2025 00:55:16.173] [Server thread/WARN] [tombstone/]: The death event of the player BunnyGao was canceled by another mod
+[24Jun2025 00:55:16.176] [Server thread/INFO] [tombstone/]: The player BunnyGao has successfully been saved
+[24Jun2025 00:55:16.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1950 chunks (0.50%), ETA: 18:05:42, Rate: 6.0 cps, Current: 55, 68
+[24Jun2025 00:55:17.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1965 chunks (0.50%), ETA: 17:14:50, Rate: 6.3 cps, Current: 57, 67
+[24Jun2025 00:55:18.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1976 chunks (0.50%), ETA: 15:49:28, Rate: 6.9 cps, Current: 60, 72
+[24Jun2025 00:55:19.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1981 chunks (0.50%), ETA: 15:58:44, Rate: 6.8 cps, Current: 58, 70
+[24Jun2025 00:55:22.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1990 chunks (0.51%), ETA: 16:36:57, Rate: 6.5 cps, Current: 58, 68
+[24Jun2025 00:55:23.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2007 chunks (0.51%), ETA: 16:30:28, Rate: 6.6 cps, Current: 60, 67
+[24Jun2025 00:55:25.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2009 chunks (0.51%), ETA: 16:46:59, Rate: 6.5 cps, Current: 63, 78
+[24Jun2025 00:55:26.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2013 chunks (0.51%), ETA: 19:31:50, Rate: 5.6 cps, Current: 63, 74
+[24Jun2025 00:55:32.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2015 chunks (0.51%), ETA: 25:26:16, Rate: 4.3 cps, Current: 63, 72
+[24Jun2025 00:55:35.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:55:37.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:55:38.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2027 chunks (0.52%), ETA: 31:47:28, Rate: 3.4 cps, Current: 59, 66
+[24Jun2025 00:55:43.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2031 chunks (0.52%), ETA: 37:56:35, Rate: 2.9 cps, Current: 62, 67
+[24Jun2025 00:55:46.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2035 chunks (0.52%), ETA: 37:45:00, Rate: 2.9 cps, Current: 62, 65
+[24Jun2025 00:55:46.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:55:47.314] [Server thread/WARN] [tombstone/]: The death event of the player Nex_6 was canceled by another mod
+[24Jun2025 00:55:47.326] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 00:55:49.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2037 chunks (0.52%), ETA: 56:41:55, Rate: 1.9 cps, Current: 34, 37
+[24Jun2025 00:55:52.542] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GrilloPPG[/127.199.171.92:36881] logged in with entity id 8365 at (329.5, 103.0, 1204.5)
+[24Jun2025 00:55:52.565] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player GrilloPPG
+[24Jun2025 00:55:52.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GrilloPPG joined the game
+[24Jun2025 00:55:52.705] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:55:52.891] [Server thread/INFO] [Jade/]: Syncing config to GrilloPPG (48ddd739-5623-3b58-849d-1933caa373d4)
+[24Jun2025 00:55:52.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GrilloPPG has made the advancement [Orcz Challenges]
+[24Jun2025 00:55:53.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2038 chunks (0.52%), ETA: 103:12:29, Rate: 1.1 cps, Current: 34, 36
+[24Jun2025 00:55:55.921] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of GrilloPPG (18)
+[24Jun2025 00:55:55.922] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to GrilloPPG
+[24Jun2025 00:55:56.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2044 chunks (0.52%), ETA: 99:04:17, Rate: 1.1 cps, Current: 33, 35
+[24Jun2025 00:55:56.312] [Server thread/WARN] [tombstone/]: The death event of the player Nex_6 was canceled by another mod
+[24Jun2025 00:55:56.314] [Server thread/WARN] [tombstone/]: The death event of the player BunnyGao was canceled by another mod
+[24Jun2025 00:55:56.317] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 00:55:56.347] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 00:55:56.347] [Server thread/INFO] [tombstone/]: The player BunnyGao has successfully been saved
+[24Jun2025 00:55:56.348] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
