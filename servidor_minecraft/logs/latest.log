@@ -1144,3 +1144,347 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [24Jun2025 00:55:56.347] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
 [24Jun2025 00:55:56.347] [Server thread/INFO] [tombstone/]: The player BunnyGao has successfully been saved
 [24Jun2025 00:55:56.348] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 00:56:02.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2047 chunks (0.52%), ETA: 124:33:04, Rate: 0.9 cps, Current: 33, 38
+[24Jun2025 00:56:03.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2048 chunks (0.52%), ETA: 123:52:18, Rate: 0.9 cps, Current: 34, 38
+[24Jun2025 00:56:05.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2054 chunks (0.52%), ETA: 102:53:51, Rate: 1.1 cps, Current: 37, 37
+[24Jun2025 00:56:07.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2055 chunks (0.52%), ETA: 107:45:58, Rate: 1.0 cps, Current: 35, 36
+[24Jun2025 00:56:10.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2060 chunks (0.52%), ETA: 96:45:38, Rate: 1.1 cps, Current: 38, 36
+[24Jun2025 00:56:11.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2065 chunks (0.53%), ETA: 86:09:29, Rate: 1.3 cps, Current: 37, 35
+[24Jun2025 00:56:12.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2066 chunks (0.53%), ETA: 87:02:08, Rate: 1.2 cps, Current: 38, 35
+[24Jun2025 00:56:15.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2069 chunks (0.53%), ETA: 88:59:27, Rate: 1.2 cps, Current: 36, 33
+[24Jun2025 00:56:16.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2071 chunks (0.53%), ETA: 82:58:21, Rate: 1.3 cps, Current: 38, 34
+[24Jun2025 00:56:19.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2072 chunks (0.53%), ETA: 89:54:24, Rate: 1.2 cps, Current: 38, 33
+[24Jun2025 00:56:20.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2074 chunks (0.53%), ETA: 78:18:07, Rate: 1.4 cps, Current: 39, 33
+[24Jun2025 00:56:23.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2075 chunks (0.53%), ETA: 83:13:59, Rate: 1.3 cps, Current: 40, 33
+[24Jun2025 00:56:25.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2079 chunks (0.53%), ETA: 87:33:49, Rate: 1.2 cps, Current: 63, 70
+[24Jun2025 00:56:25.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao was blown up by Creeper
+[24Jun2025 00:56:26.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2081 chunks (0.53%), ETA: 72:19:53, Rate: 1.5 cps, Current: 41, 34
+[24Jun2025 00:56:27.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2083 chunks (0.53%), ETA: 71:54:00, Rate: 1.5 cps, Current: 63, 68
+[24Jun2025 00:56:29.471] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task stopped for minecraft:overworld.
+[24Jun2025 00:56:47.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 00:56:54.796] [Server thread/WARN] [tombstone/]: The death event of the player GrilloPPG was canceled by another mod
+[24Jun2025 00:56:54.832] [Server thread/INFO] [tombstone/]: The player GrilloPPG has successfully been saved
+[24Jun2025 00:56:57.293] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[24Jun2025 00:56:57.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 was blown up by Creeper
+[24Jun2025 00:56:57.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu was blown up by Creeper
+[24Jun2025 00:56:57.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu has made the advancement [Your First Grave]
+[24Jun2025 00:57:14.651] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2396ms or 47 ticks behind
+[24Jun2025 00:57:17.767] [Server thread/WARN] [tombstone/]: The death event of the player GrilloPPG was canceled by another mod
+[24Jun2025 00:57:17.792] [Server thread/INFO] [tombstone/]: The player GrilloPPG has successfully been saved
+[24Jun2025 00:57:53.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu was kicked for floating too long!
+[24Jun2025 00:57:53.958] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu lost connection: Flying is not enabled on this server
+[24Jun2025 00:57:53.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu left the game
+[24Jun2025 00:57:53.982] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LauOsamu
+[24Jun2025 00:58:02.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LauOsamu[/127.94.116.192:41725] logged in with entity id 8854 at (383.4122586193177, 88.22744194432518, 1202.674077299235)
+[24Jun2025 00:58:02.250] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LauOsamu
+[24Jun2025 00:58:02.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu joined the game
+[24Jun2025 00:58:02.339] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:58:02.346] [Server thread/INFO] [Jade/]: Syncing config to LauOsamu (20ed05a2-d8ec-3627-9d24-5ea40d83f6ed)
+[24Jun2025 00:58:02.705] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LauOsamu (18)
+[24Jun2025 00:58:02.706] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LauOsamu
+[24Jun2025 00:58:04.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Nex_6> ..
+[24Jun2025 00:58:15.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Reloading!]
+[24Jun2025 00:58:15.375] [Server thread/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 6 ms
+[24Jun2025 00:58:15.383] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[24Jun2025 00:58:15.645] [Worker-ResourceReload-0/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.6.jar
+[24Jun2025 00:58:16.591] [Worker-ResourceReload-0/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dtbop:trees/voluntary/glowshroom
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dtbop:glowshroom_seed'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[24Jun2025 00:58:16.815] [Worker-ResourceReload-0/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dtbop:trees/voluntary/toadstool
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dtbop:toadstool_seed'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23237!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[24Jun2025 00:58:18.157] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[24Jun2025 00:58:18.198] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.198] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.199] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.199] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.199] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.199] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.199] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[24Jun2025 00:58:18.199] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[24Jun2025 00:58:18.221] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[24Jun2025 00:58:18.234] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_jungle_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_jungle_door'
+[24Jun2025 00:58:18.259] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[24Jun2025 00:58:18.293] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_birch_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_birch_door'
+[24Jun2025 00:58:18.303] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_acacia_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_acacia_door'
+[24Jun2025 00:58:18.325] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_crimson_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_crimson_door'
+[24Jun2025 00:58:18.336] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_sliding_warped_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:sliding_warped_door'
+[24Jun2025 00:58:18.350] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_screen_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:screen_mangrove_door'
+[24Jun2025 00:58:18.353] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[24Jun2025 00:58:18.400] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_shack_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:shack_mangrove_door'
+[24Jun2025 00:58:18.442] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_tiled_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:tiled_mangrove_door'
+[24Jun2025 00:58:18.482] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethers_exorcism_reborn:electrumarmorcraft: com.google.gson.JsonSyntaxException: Unknown item 'oreganized:electrum_block'
+[24Jun2025 00:58:18.504] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_spruce_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_spruce_door'
+[24Jun2025 00:58:18.513] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[24Jun2025 00:58:18.515] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethers_exorcism_reborn:stripped_turq_toplankscreate: com.google.gson.JsonSyntaxException: Unknown item 'nethers_exorcism_reborn:stripped_turquoise_bamboo_log'
+[24Jun2025 00:58:18.520] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_warped_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_warped_door'
+[24Jun2025 00:58:18.533] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_mangrove_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_mangrove_door'
+[24Jun2025 00:58:18.549] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dramaticdoors:tall_chipped_modern_dark_oak_door: com.google.gson.JsonSyntaxException: Unknown item 'chipped:classic_windowed_dark_oak_door'
+[24Jun2025 00:58:18.562] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 43 recipes
+[24Jun2025 00:58:18.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu moved too quickly! 9.579259410230861,2.7531999805212024,1.9877202445854891
+[24Jun2025 00:58:18.579] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_warped_door: Unknown item id 'chipped:classic_windowed_warped_door'
+[24Jun2025 00:58:18.582] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_sliding_warped_door: Unknown item id 'chipped:sliding_warped_door'
+[24Jun2025 00:58:18.597] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_screen_mangrove_door: Unknown item id 'chipped:screen_mangrove_door'
+[24Jun2025 00:58:18.601] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_tiled_mangrove_door: Unknown item id 'chipped:tiled_mangrove_door'
+[24Jun2025 00:58:18.605] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_spruce_door: Unknown item id 'chipped:classic_windowed_spruce_door'
+[24Jun2025 00:58:18.609] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_dark_oak_door: Unknown item id 'chipped:classic_windowed_dark_oak_door'
+[24Jun2025 00:58:18.620] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_jungle_door: Unknown item id 'chipped:classic_windowed_jungle_door'
+[24Jun2025 00:58:18.624] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_mangrove_door: Unknown item id 'chipped:classic_windowed_mangrove_door'
+[24Jun2025 00:58:18.658] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_acacia_door: Unknown item id 'chipped:classic_windowed_acacia_door'
+[24Jun2025 00:58:18.672] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_birch_door: Unknown item id 'chipped:classic_windowed_birch_door'
+[24Jun2025 00:58:18.686] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_shack_mangrove_door: Unknown item id 'chipped:shack_mangrove_door'
+[24Jun2025 00:58:18.700] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dramaticdoors:recipes/redstone/tall_chipped_modern_crimson_door: Unknown item id 'chipped:classic_windowed_crimson_door'
+[24Jun2025 00:58:18.733] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5923 advancements
+[24Jun2025 00:58:18.735] [Server thread/INFO] [Dungeon Crawl/]: Loading data...
+[24Jun2025 00:58:18.964] [Server thread/INFO] [Dungeon Crawl/]: Done.
+[24Jun2025 00:58:18.976] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: spawn_tables
+[24Jun2025 00:58:18.977] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Data loader for spawn_tables loaded 8 jsons
+[24Jun2025 00:58:18.977] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: entities
+[24Jun2025 00:58:18.991] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Data loader for entities loaded 37 jsons
+[24Jun2025 00:58:19.004] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[24Jun2025 00:58:19.005] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[24Jun2025 00:58:19.010] [Server thread/INFO] [Supplementaries/]: Loaded 27 flute songs
+[24Jun2025 00:58:19.038] [Server thread/ERROR] [com.ferreusveritas.dynamictrees.api.resource.loading.preparation.JsonRegistryResourceLoader/]: Error whilst loading type "Species" with name "dtbop:aspen": [primitive_sapling] Json element was not a json object.
+[24Jun2025 00:58:19.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu moved too quickly! 9.89278537654343,2.419999986886978,1.708609663867719
+[24Jun2025 00:58:19.169] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[24Jun2025 00:58:19.251] [Server thread/INFO] [Moonlight/]: Applied 7 data villager trades
+[24Jun2025 00:58:19.257] [Server thread/ERROR] [Moonlight/]: Failed to restore original behavior for item: lunch_basket, net.mehvahdjukaar.moonlight.api.util.DispenserHelper$PlaceBlockDispenseBehavior@70c73672
+[24Jun2025 00:58:19.758] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu moved too quickly! 9.735465873179407,2.0,1.803877253083101
+[24Jun2025 00:58:19.766] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4511ms or 90 ticks behind
+[24Jun2025 00:58:20.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <BunnyGao> que
+[24Jun2025 00:58:36.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu has reached the goal [Here They Come]
+[24Jun2025 00:58:47.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 00:58:48.831] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 00:58:48.836] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 00:58:50.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu tried to swim in lava
+[24Jun2025 00:58:50.732] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 00:59:26.783] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 00:59:26.785] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 00:59:28.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu has reached the goal [Chain Death]
+[24Jun2025 00:59:28.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu tried to swim in lava
+[24Jun2025 00:59:28.786] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 00:59:44.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao has made the advancement [Stone Age]
+[24Jun2025 00:59:45.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu was kicked for floating too long!
+[24Jun2025 00:59:45.929] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu lost connection: Flying is not enabled on this server
+[24Jun2025 00:59:45.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu left the game
+[24Jun2025 00:59:45.930] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LauOsamu
+[24Jun2025 00:59:50.932] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LauOsamu[/127.94.116.192:44155] logged in with entity id 9492 at (386.2072929561106, 91.28549238931866, 1187.7758415350238)
+[24Jun2025 00:59:50.946] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LauOsamu
+[24Jun2025 00:59:50.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu joined the game
+[24Jun2025 00:59:50.985] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 00:59:50.986] [Server thread/INFO] [Jade/]: Syncing config to LauOsamu (20ed05a2-d8ec-3627-9d24-5ea40d83f6ed)
+[24Jun2025 00:59:51.175] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LauOsamu (18)
+[24Jun2025 00:59:51.176] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LauOsamu
+[24Jun2025 00:59:54.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao has made the advancement [Crops of the Wild]
+[24Jun2025 00:59:57.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu was kicked for floating too long!
+[24Jun2025 00:59:57.522] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu lost connection: Flying is not enabled on this server
+[24Jun2025 00:59:57.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu left the game
+[24Jun2025 00:59:57.523] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LauOsamu
+[24Jun2025 00:59:58.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Nex_6> hijodeput
+[24Jun2025 01:00:03.232] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LauOsamu[/127.94.116.192:37057] logged in with entity id 9656 at (400.40136732052497, 76.38681973812857, 1183.6374789775846)
+[24Jun2025 01:00:03.248] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LauOsamu
+[24Jun2025 01:00:03.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu joined the game
+[24Jun2025 01:00:03.290] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 01:00:03.291] [Server thread/INFO] [Jade/]: Syncing config to LauOsamu (20ed05a2-d8ec-3627-9d24-5ea40d83f6ed)
+[24Jun2025 01:00:03.534] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LauOsamu (18)
+[24Jun2025 01:00:03.535] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LauOsamu
+[24Jun2025 01:00:16.822] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:00:16.825] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:00:18.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu tried to swim in lava
+[24Jun2025 01:00:18.828] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:00:33.152] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:00:33.153] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:00:33.426] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/1357, l='ServerLevel[world]', x=356.73, y=99.00, z=1183.31] died, message: 'Unemployed was slain by Anaconda'
+[24Jun2025 01:01:12.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu fell from a high place
+[24Jun2025 01:01:47.370] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:01:47.376] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:02:02.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 01:02:08.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu was slain by Anaconda
+[24Jun2025 01:02:26.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GrilloPPG has made the advancement [Stone Age]
+[24Jun2025 01:02:35.524] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:02:35.525] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:02:37.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu tried to swim in lava
+[24Jun2025 01:02:37.586] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:02:55.385] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu was kicked for floating too long!
+[24Jun2025 01:02:55.441] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu lost connection: Flying is not enabled on this server
+[24Jun2025 01:02:55.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu left the game
+[24Jun2025 01:02:55.442] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LauOsamu
+[24Jun2025 01:03:04.413] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/1368, l='ServerLevel[world]', x=310.44, y=105.00, z=1183.44] died, message: 'Librarian was slain by Anaconda'
+[24Jun2025 01:03:05.229] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LauOsamu[/127.94.116.192:54245] logged in with entity id 10917 at (384.212609640508, 88.22744194432518, 1189.3968552646897)
+[24Jun2025 01:03:05.246] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LauOsamu
+[24Jun2025 01:03:05.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu joined the game
+[24Jun2025 01:03:05.294] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[24Jun2025 01:03:05.296] [Server thread/INFO] [Jade/]: Syncing config to LauOsamu (20ed05a2-d8ec-3627-9d24-5ea40d83f6ed)
+[24Jun2025 01:03:05.590] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LauOsamu (18)
+[24Jun2025 01:03:05.591] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LauOsamu
+[24Jun2025 01:03:20.422] [Server thread/WARN] [tombstone/]: The death event of the player Nex_6 was canceled by another mod
+[24Jun2025 01:03:20.423] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 01:03:23.423] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:03:23.425] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:03:25.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu tried to swim in lava
+[24Jun2025 01:03:25.427] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:03:30.863] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/1093, l='ServerLevel[world]', x=333.30, y=92.00, z=1164.52] died, message: 'Librarian was slain by Anaconda'
+[24Jun2025 01:03:32.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 01:03:45.327] [Server thread/WARN] [tombstone/]: The death event of the player Nex_6 was canceled by another mod
+[24Jun2025 01:03:45.351] [Server thread/INFO] [tombstone/]: The player Nex_6 has successfully been saved
+[24Jun2025 01:03:48.096] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:03:48.101] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:03:55.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu fell from a high place
+[24Jun2025 01:04:01.411] [Server thread/WARN] [tombstone/]: The death event of the player BunnyGao was canceled by another mod
+[24Jun2025 01:04:01.432] [Server thread/INFO] [tombstone/]: The player BunnyGao has successfully been saved
+[24Jun2025 01:04:12.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao was slain by Anaconda
+[24Jun2025 01:04:19.384] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:04:19.407] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:04:26.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu was slain by Snake
+[24Jun2025 01:04:34.234] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:cherry_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.234] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:cherry_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.234] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:cherry_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.234] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:cherry_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.235] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:cherry_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.440] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:snowblossom_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.440] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:snowblossom_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.440] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:snowblossom_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.440] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:snowblossom_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:34.440] [Server thread/WARN] [com.ferreusveritas.dynamictrees.tree.species.Species/]: Block Block{dtbop:snowblossom_twiglet_leaves} not valid leaves for Species{registryName=dynamictrees:cherry}.
+[24Jun2025 01:04:35.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao has reached the goal [Here They Come]
+[24Jun2025 01:04:39.723] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 95], pos: BlockPos{x=-30, y=76, z=1524}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.724] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 95], pos: BlockPos{x=-31, y=76, z=1523}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 94], pos: BlockPos{x=-28, y=77, z=1518}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 95], pos: BlockPos{x=-27, y=76, z=1520}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 94], pos: BlockPos{x=-31, y=76, z=1519}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 94], pos: BlockPos{x=-32, y=76, z=1516}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 95], pos: BlockPos{x=-32, y=76, z=1520}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 95], pos: BlockPos{x=-32, y=76, z=1525}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:39.725] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-2, 95], pos: BlockPos{x=-32, y=76, z=1523}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:04:47.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 was slain by Anaconda
+[24Jun2025 01:04:50.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set the world spawn point to -16, 99, 1483 [0.0]]
+[24Jun2025 01:04:58.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GrilloPPG has made the advancement [Sweet Dreams]
+[24Jun2025 01:05:05.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GrilloPPG> zzzzzzzzzzzzzzzzzzzzzzzzz
+[24Jun2025 01:05:13.819] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:05:13.839] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:05:17.510] [Server thread/WARN] [tombstone/]: The death event of the player BunnyGao was canceled by another mod
+[24Jun2025 01:05:17.544] [Server thread/INFO] [tombstone/]: The player BunnyGao has successfully been saved
+[24Jun2025 01:05:20.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu was slain by Foliaath
+[24Jun2025 01:05:23.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao was slain by Foliaath
+[24Jun2025 01:05:29.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 has made the advancement [Alex's Mobs]
+[24Jun2025 01:05:44.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GrilloPPG has made the advancement [Getting an Upgrade]
+[24Jun2025 01:05:58.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 has made the advancement [Crops of the Wild]
+[24Jun2025 01:05:59.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set the time to 1000]
+[24Jun2025 01:06:02.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 01:06:19.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Creative Mode]
+[24Jun2025 01:06:25.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
+[24Jun2025 01:06:33.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jhosan_ty has made the advancement [Monster Hunter]
+[24Jun2025 01:06:51.994] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-14, 97], pos: BlockPos{x=-223, y=89, z=1565}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:06:51.998] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-14, 97], pos: BlockPos{x=-219, y=90, z=1565}, status: minecraft:features, currently generating: Placed Direct{Configured: untamedwilds.world.gen.feature.FeatureReedClusters@2516e065: net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration@1017a6b6}
+[24Jun2025 01:07:09.632] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:07:09.657] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:07:15.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[24Jun2025 01:07:18.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu was slain by Bison
+[24Jun2025 01:07:40.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nex_6 has made the advancement [Stone Age]
+[24Jun2025 01:07:46.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BunnyGao has made the advancement [Diamonds!]
+[24Jun2025 01:07:48.752] [Server thread/WARN] [tombstone/]: The death event of the player LauOsamu was canceled by another mod
+[24Jun2025 01:07:48.791] [Server thread/INFO] [tombstone/]: The player LauOsamu has successfully been saved
+[24Jun2025 01:07:55.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu fell from a high place
+[24Jun2025 01:07:55.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Spectator Mode]
+[24Jun2025 01:07:58.477] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LauOsamu lost connection: Disconnected
+[24Jun2025 01:07:58.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LauOsamu left the game
+[24Jun2025 01:07:58.479] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LauOsamu
+[24Jun2025 01:07:59.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jhosan_ty: Set own game mode to Survival Mode]
